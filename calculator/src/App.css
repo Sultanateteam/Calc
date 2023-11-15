@@ -1,0 +1,57 @@
+*::after,
+*::before,
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button {
+  font-size: 40px;
+  padding: 10px 30px;
+}
+
+.App {
+  background-color: rgb(175, 251, 226);
+  background-image: url("./61d9e921450683.77908819.jpg");
+  object-fit: cover;
+  object-position: center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  inset: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 500px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.display {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-align: end;
+  font-size: 30px;
+  padding: 5px 20px;
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
